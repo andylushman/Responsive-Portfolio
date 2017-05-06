@@ -252,3 +252,27 @@ footer {
   color: #ddd;
   border-top: 7px solid #4aaaa5;
 }
+
+
+/******Media Queries******/
+
+/******Max-Width 980******/
+@media screen and (max-width: 980px) {
+
+
+
+}
+
+/******Max-Width 756******/
+@media screen and (max-width: 756px) {
+
+
+
+}
+
+/******Max-Width 640******/
+@media screen and (max-width: 640px) {
+
+
+
+}
