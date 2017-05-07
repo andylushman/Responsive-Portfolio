@@ -258,8 +258,23 @@ footer {
 
 /******Max-Width 980******/
 @media screen and (max-width: 980px) {
-
-
+  /***Aout Me Page***/
+  .main-content {
+    max-width: 400px;
+  }
+  #profile-pic, #about-me .paragraph, .about-line  {
+    max-width: 65%;
+    float: none;
+    margin: auto;
+    display: block;
+  }
+  #about-me {
+    padding-left: 2.3em;
+  }
+  .paragraph {
+    margin-left: 4.3em;
+    max-width: 65%;
+  }
 
 }
 
