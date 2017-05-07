@@ -1,4 +1,3 @@
-
 * {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -269,18 +268,39 @@ footer {
     display: block;
   }
   #about-me {
-    padding-left: 2.3em;
+    padding-left: 0.5em;
+  }
+  .about-line {
+    margin-left: 1em;
+    max-width: 100%;
   }
   .paragraph {
     margin-left: 4.3em;
     max-width: 65%;
   }
 
+  .main-content {
+    padding-left: 0em;
+    max-width: 588px;
+    margin-left: 3em;
+  }
+
+  .connect-box {
+    max-width: 86%;
+    margin-right: 2.5em;
+  }
+
+  .name {
+    margin-left: 1.5em;
+  }
+
+}
+
 /******Max-Width 756******/
 @media screen and (max-width: 768px) {
 /******About Me Page******/
   .main-content {
-    max-width: 90%;
+    max-width: 80%;
     display: block;
     float: none;
     margin: auto;
@@ -292,7 +312,7 @@ footer {
     display: block;
   }
   .connect-box {
-    max-width: 88%;
+    max-width: 76%;
     display: block;
     float: none;
     margin: auto;
@@ -313,13 +333,13 @@ footer {
     margin-top: 2em;
   }
   #about-me {
-    margin-left: -1.7em;
+    margin-left: 0em;
   }
   .name {
-    margin-left: 0.75em;
+    margin-left: 2em;
   }
   .about-line {
-    width: 90%;
+    width: 100%;
     margin-left: 1em;
   }
   .connect-line {
@@ -345,20 +365,37 @@ footer {
    float: none;
    width: 100%;
    display: block;
+ }
+/******Connect Page******/
+   .main-nav {
+   float: none;
+   width: 100%;
+   display: block;
    }
 
- .main-nav li {
+  .main-nav li {
    float: none;
    display: inline-block;
    padding-right: 5em;
    margin-left: 4em;
    list-style-type: none;
    margin-top: 1.75em;
- }
+  }
 
- .main-nav a {
+  .main-nav a {
    text-decoration: none;
    color: #777;
    border-right: none;
    padding-right: 0em;
+  }
+
+  .main-content {
+    padding-left: 0em;
+    max-width: 91%;
+  }
+
+  .connect-box {
+    max-width: 86%;
+  }
+
 }

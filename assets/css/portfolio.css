@@ -355,6 +355,10 @@ footer {
    width: 43%;
  }
 
+ .connect-box {
+   max-width: 41%;
+ }
+
  .img-div3 h2 {
    top: 856px;
    left: 198px;
@@ -374,4 +378,25 @@ footer {
    top: 1092px;
    left: 198px
  }
+   .main-nav {
+   float: none;
+   width: 100%;
+   display: block;
+   }
+
+  .main-nav li {
+   float: none;
+   display: inline-block;
+   padding-right: 5em;
+   margin-left: 4em;
+   list-style-type: none;
+   margin-top: 1.75em;
+  }
+
+  .main-nav a {
+   text-decoration: none;
+   color: #777;
+   border-right: none;
+   padding-right: 0em;
+  }
 }
