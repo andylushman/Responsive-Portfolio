@@ -258,7 +258,7 @@ footer {
 
 /******Max-Width 980******/
 @media screen and (max-width: 980px) {
-  /***Aout Me Page***/
+  /***About Me Page***/
   .main-content {
     max-width: 400px;
   }
@@ -279,10 +279,55 @@ footer {
 }
 
 /******Max-Width 756******/
-@media screen and (max-width: 756px) {
-
-
-
+@media screen and (max-width: 768px) {
+  /***About Me Page***/
+  .main-content {
+    max-width: 90%;
+    display: block;
+    float: none;
+    margin: auto;
+  }
+  #profile-pic, #about-me .paragraph, .about-line  {
+    max-width: 90%;
+    float: left;
+    margin: auto;
+    display: block;
+  }
+  .connect-box {
+    max-width: 88%;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 150px;
+  }
+  .connect-box h1 {
+    text-align: left;
+  }
+  .social-icon {
+    display: block;
+    float: left;
+  }
+  .paragraph {
+    margin-left: 1.3em;
+    max-width: 100%;
+    margin-top: 2em;
+  }
+  #about-me {
+    margin-left: -1.7em;
+  }
+  .name {
+    margin-left: 0.75em;
+  }
+  .about-line {
+    width: 90%;
+    margin-left: 1em;
+  }
+  .connect-line {
+    margin-left: 0em;
+    margin-bottom: 2em;
+  }
 }
 
 /******Max-Width 640******/
