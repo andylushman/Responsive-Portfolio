@@ -253,44 +253,36 @@ footer {
   border-top: 7px solid #4aaaa5;
 }
 
-
 /******Media Queries******/
 
 /******Max-Width 980******/
 @media screen and (max-width: 980px) {
-/******About Me Page******/
-  .main-content {
-    max-width: 400px;
+
+  .main-port {
+    width: 17.5em;
   }
-  #profile-pic, #about-me .paragraph, .about-line  {
-    max-width: 65%;
-    float: none;
-    margin: auto;
-    display: block;
+
+  .img-div2 h2 {
+    top: 1060px;
+    left: 145px;
   }
-  #about-me {
-    padding-left: 2.3em;
+
+  .img-div4 h2 {
+  top: 1300px;
+  left: 145px;
   }
-  .paragraph {
-    margin-left: 4.3em;
-    max-width: 65%;
-  }
+
+
+}
 
 /******Max-Width 756******/
 @media screen and (max-width: 768px) {
-/******About Me Page******/
-  .main-content {
-    max-width: 90%;
-    display: block;
+  .main-port {
     float: none;
+    width: 90%;
     margin: auto;
   }
-  #profile-pic, #about-me .paragraph, .about-line  {
-    max-width: 90%;
-    float: left;
-    margin: auto;
-    display: block;
-  }
+
   .connect-box {
     max-width: 88%;
     display: block;
@@ -300,37 +292,49 @@ footer {
     margin-bottom: 25px;
     height: 150px;
   }
+
+  .img-div3 h2 {
+    top: 592px;
+    left: 54px;
+  }
+
+  .img-div5 h2 {
+    top: 830px;
+    left: 54px;
+  }
+
+  .img-div2 h2 {
+    top: 355px;
+    left: 336px;
+  }
+
+  .img-div4 h2 {
+    top: 592px;
+    left: 336px
+  }
+
+  .name {
+    margin-left: 0.75em;
+  }
+
   .connect-box h1 {
     text-align: left;
   }
+
   .social-icon {
     display: block;
     float: left;
   }
-  .paragraph {
-    margin-left: 1.3em;
-    max-width: 100%;
-    margin-top: 2em;
-  }
-  #about-me {
-    margin-left: -1.7em;
-  }
-  .name {
-    margin-left: 0.75em;
-  }
-  .about-line {
-    width: 90%;
-    margin-left: 1em;
-  }
+
   .connect-line {
     margin-left: 0em;
     margin-bottom: 2em;
   }
+
 }
 
 /******Max-Width 640******/
 @media screen and (max-width: 640px) {
-/******About Me Page******/
   .name {
     display: block;
     width: 100%;
@@ -345,5 +349,29 @@ footer {
    float: none;
    width: 100%;
    display: block;
+ }
+
+ .main-port {
+   width: 43%;
+ }
+
+ .img-div3 h2 {
+   top: 856px;
+   left: 198px;
+ }
+
+ .img-div5 h2 {
+   top: 1328px;
+   left: 198px;
+ }
+
+ .img-div2 h2 {
+   top: 610px;
+   left: 198px;
+ }
+
+ .img-div4 h2 {
+   top: 1092px;
+   left: 198px
  }
 }
